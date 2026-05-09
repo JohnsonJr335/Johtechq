@@ -1,0 +1,16 @@
+{
+  "name": "johtechq-desktop",
+  "version": "1.0.0",
+  "description": "Electron Desktop App for Shop Management",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron-dev"
+  },
+  "dependencies": {
+    "electron-is-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron": "^latest"
+  }
+}
