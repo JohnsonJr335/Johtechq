@@ -1,0 +1,16 @@
+{
+  "name": "johtechq-shop-system",
+  "version": "1.0.0",
+  "description": "Complete Shop Management System with Digital Clock",
+  "main": "server/server.js",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install && cd ../desktop && npm install",
+    "dev": "cd server && npm start",
+    "client": "cd client && npm start",
+    "desktop": "cd desktop && npm start",
+    "build": "cd client && npm run build && cd ../desktop && npm run build"
+  },
+  "keywords": ["shop", "inventory", "sales", "pos", "clock"],
+  "author": "JohnsonJr335",
+  "license": "MIT"
+}
